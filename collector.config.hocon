@@ -21,7 +21,8 @@ collector {
   # The collector runs as a web service specified on the following interface and port.
   interface = "52.216.62.213"
   port = 80
-
+  license { accept = true }
+  
   # optional SSL/TLS configuration
   ssl {
     enable = false
